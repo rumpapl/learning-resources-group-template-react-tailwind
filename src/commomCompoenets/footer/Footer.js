@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../logo/Logo';
 import FormSection from './FormSection';
+import SocialIconSection from './SocialIconSection';
 
 const Footer = () => {
     return (
@@ -17,7 +18,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    add social-media icon here
+                    <SocialIconSection />
                 </div>
             </div>
         </div>
