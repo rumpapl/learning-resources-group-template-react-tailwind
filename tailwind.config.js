@@ -5,6 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        themeColor: {
+          DEFAULT: "#00b5ac",
+        },
         footer: {
           DEFAULT: '#20375c',
         }
