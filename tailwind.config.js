@@ -8,7 +8,11 @@ module.exports = {
         footer: {
           DEFAULT: '#20375c',
         }
-      }
+      },
+      screens: {
+        'ssm': '370px',
+        // => @media (min-width: 640px) { ... }
+      },
     },
   },
   variants: {
