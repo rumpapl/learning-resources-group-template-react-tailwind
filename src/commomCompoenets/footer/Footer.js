@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="grid place-items-center lg:place-items-start">
                     <SocialIconSection />
                 </div>
             </div>
