@@ -19,15 +19,17 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="lg:flex-auto space-y-4 lg:pl-10 lg:block">
-                   
-                        <div className="grid place-items-center lg:place-items-start lg:order-last">
-                            <SocialIconSection />
-                        </div>
-                        <div>
-                            <FooterLinks />
-                        </div>
-                  
+                <div className="lg:flex-auto space-y-4 lg:pl-10 lg:flex-col lg:flex">
+
+                    <div className="grid place-items-center 
+                    lg:place-items-start order-first lg:order-last
+                    lg:pt-3
+                    ">
+                        <SocialIconSection />
+                    </div>
+                    <div className='order-last lg:order-first'>
+                        <FooterLinks />
+                    </div>
 
                 </div>
             </div>
